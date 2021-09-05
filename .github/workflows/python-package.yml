@@ -38,6 +38,9 @@ jobs:
     - name: Test hello world
       run: |
         echo 'hello world'
+    - name: Test seq-test.py
+      run: |
+        python seq-test.py
     - name: Test killer.py
       run: |
         python killer.py
